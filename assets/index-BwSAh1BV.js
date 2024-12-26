@@ -135,7 +135,7 @@ function print() { __p += __j.call(arguments, '') }
                                                                             <div class="postcard__preview-txt">
                                                                                 ${q.description}
                                                                             </div>
-                                                                            {/*<div class="price">Desde 120€</div>*/}
+                                                                            
                                                                         </div>
                                                                     </article>
            
