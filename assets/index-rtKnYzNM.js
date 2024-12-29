@@ -126,12 +126,9 @@ function print() { __p += __j.call(arguments, '') }
                                                                             <img src="${P.image}" class="postcard__img" />
                                                                         </a>
                                                                         <div class="postcard__text t-dark">
-                                                                            <h1 class="postcard__title blue">
-                                                                                ${P.title}
-                                                                            </h1>
-                                                                            
-                                                                            <div class="postcard__bar"></div>
-                                                                            
+                                                                             <div class="section-title postcard__title" data-aos="fade-up">
+                                                                                <h2>${P.title}</h2>
+                                                                             </div>
                                                                             <div class="postcard__preview-txt" >
                                                                                 ${q(P.description)}
                                                                             </div>
